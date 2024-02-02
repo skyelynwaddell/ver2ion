@@ -22,8 +22,6 @@
 
 .container
 {
-    width: 540px;
-    max-width: 540px;
     position: relative;
     display: fixed;
     padding:18px;
@@ -211,7 +209,7 @@ a:link
     body, html
     {
         height:100%;
-        max-width: 530px;
+        max-width: 100%;
         margin: 0 auto !important; 
         float: none !important; 
         height: 100%;
