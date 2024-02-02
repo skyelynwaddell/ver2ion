@@ -22,16 +22,18 @@
 
 .container
 {
+    justify-content: space-between;
+    padding-top: 10px;
     align-content: center;
     float: none;
-    margin: 0;
+    margin: 10px;
     flex: none;
     width: 600px;
     display: fixed;
     padding:18px;
     padding-bottom:25px;
     border-radius: 15px;
-    background-color: hsl(0, 0%, 17%) !important;
+    background-color: hsla(0, 0%, 17%, 0.807) !important;
     transition: transform .2s; /* Animation */
 }
 
@@ -139,6 +141,7 @@
 {
     color:white;
     white-space: nowrap;
+    font-size: x-large;
 }
 
 a:link
@@ -212,9 +215,9 @@ a:link
 
     body, html
     {
-        padding-left:0px;
+        padding-left: 1px;
         height: 100%;
-        width:23.8rem;
+        width:20rem;
         justify-content: center !important;
         align-items: center !important;
         float: none !important;
@@ -227,6 +230,7 @@ a:link
 
     .background
     {
+        
         position: fixed;
         top: 0;
         left: 0;
