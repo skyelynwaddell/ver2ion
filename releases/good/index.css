@@ -208,7 +208,6 @@ a:link
     color:rgb(186, 29, 248);
 }
 
-@media only screen {
     body, html
     {
         height:100%;
@@ -218,7 +217,7 @@ a:link
         height: 100%;
         width: 100%;
     }
-    }
+
 
     .background
     {
