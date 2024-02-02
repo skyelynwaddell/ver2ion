@@ -1,4 +1,4 @@
-body{
+body, html{
     background-color: black;
 }
 h1{
@@ -8,14 +8,14 @@ position: absolute;
 display:flex;
 color:white;
 }
-.column{
+.socialcolumn{
     justify-items: center;
     justify-content: center;
     text-align: center;
     position: absolute;
     display:flex;
     float:left;
-    margin:440px;
+    margin:430px;
     column-gap: 10px;
 }
 .fa {
@@ -26,7 +26,6 @@ color:white;
     border-radius: 50%;
     transition: all .2s ease-in-out; 
   }
-  /* Add a hover effect if you want */
 .fa:hover {
     transform: scale(1.1);
   }
@@ -70,7 +69,30 @@ color:white;
     justify-items: center;
     text-align: center;
     display: flex;
-    
+}
+.buy1get1free{
+  color:white !important;
+  position: relative;
+  top:540px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  display: flex;
+  height:auto;
+}
+.buy1text{
+  font-family: 'Lexend Peta', sans-serif;
+}
+
+.btn{
+  background-color: #ea22b1 !important;
+  border-color: #ea22b1 !important;
+  transition: .3s ease-in-out !important; 
+}
+
+.btn:hover
+{
+  transform: scale(1.2);
 }
 .store{
     overflow-x: hidden;
@@ -85,7 +107,6 @@ color:white;
     justify-items: center;
     text-align: center;
     display: flex;
-    
 }
 .fa-twitter {
     background: #55ACEE;
