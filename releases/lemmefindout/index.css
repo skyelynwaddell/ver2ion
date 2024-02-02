@@ -22,7 +22,11 @@
 
 .container
 {
-    position: relative;
+    align-content: center;
+    float: none;
+    margin: 0;
+    flex: none;
+    width: 600px;
     display: fixed;
     padding:18px;
     padding-bottom:25px;
@@ -145,9 +149,9 @@ a:link
 .bi-box-arrow-up-right
 {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     align-items: right;
-    margin-left:28rem;
+    margin-left:25rem;
 }
 
 .bi-spotify
@@ -208,11 +212,17 @@ a:link
 
     body, html
     {
-        height:100%;
-        max-width: 33rem;
-        margin: 0 auto !important; 
-        float: none !important; 
+        padding-left:0px;
         height: 100%;
+        width:23.8rem;
+        justify-content: center !important;
+        align-items: center !important;
+        float: none !important;
+        margin: auto !important;
+
+         /* Margin/padding copied from Bootstrap */
+  
+    /* Set width to your desired site width */
     }
 
     .background
@@ -237,11 +247,11 @@ a:link
     box-sizing: border-box;
     }
 
-.footer
+.foot3er
 {
     font-size:x-large;
     color:white;
-    position: relative;
+    position: fixed;
     height:70px;
     align-items: center; 
     float: auto;
@@ -250,3 +260,14 @@ a:link
     grid-template-columns: 110px 100px 100px;
     white-space: nowrap;
 }
+
+.container-non-responsive {
+    /* Margin/padding copied from Bootstrap */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+    /* Set width to your desired site width */
+    width: 1170px;
+  }
