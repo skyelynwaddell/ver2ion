@@ -86,9 +86,8 @@
 .presave
 {
     position: relative;
-    left:50%;
     height:80px;
-    margin-left: -108px;
+    margin: auto;
     opacity: 1;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
@@ -249,31 +248,6 @@ a:link
 * {
     box-sizing: border-box;
     }
-
-.foot3er
-{
-    font-size:x-large;
-    color:white;
-    position: fixed;
-    height:70px;
-    align-items: center; 
-    float: auto;
-    margin: auto;
-    text-align: center;
-    grid-template-columns: 110px 100px 100px;
-    white-space: nowrap;
-}
-
-.container-non-responsive {
-    /* Margin/padding copied from Bootstrap */
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  
-    /* Set width to your desired site width */
-    width: 1170px;
-  }
 
   .minicover
   {
