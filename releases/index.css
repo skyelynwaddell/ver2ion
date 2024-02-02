@@ -132,7 +132,7 @@
     height:70px;
     display: grid;
     align-items: center; 
-    grid-template-columns: 110px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
     text-decoration: none;
 }
 
