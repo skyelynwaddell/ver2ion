@@ -5,31 +5,16 @@ replaceTexts = {
     '#TITLE':'ver2ion - ',
     '#ARTIST':'ver2ion',
     '#SONG_TITLE':'songtitle',
-    '#RELEASE_DATE':'release',
+    '#RELEASE_DATE':'releasedate',
 
     '#SOUNDCLOUD':'sc',
-    '#SPOTIFY':'spt',
-    '#APPLE_MUSIC':'aple',
+    '#SPOTIFY':'sptfy',
     '#ITUNES':'itunes',
     '#YOUTUBE':'youtube',
     '#YOUTUBE_MUSIC':'youtubemusic',
-    '#DEEZER':'dezer',
+    '#DEEZER':'deezer',
 }
-# replaceTexts = {
-#     '#COVER_ART':'',
-#     '#TITLE':'',
-#     '#ARTIST':'',
-#     '#SONG_TITLE':'',
-#     '#RELEASE_DATE':'',
 
-#     '#SOUNDCLOUD':'',
-#     '#SPOTIFY':'',
-#     '#APPLE_MUSIC':'',
-#     '#ITUNES':'',
-#     '#YOUTUBE':'',
-#     '#YOUTUBE_MUSIC':'',
-#     '#DEEZER':'',
-# }
 for line in fileinput.input('template.html', inplace=True):
     for searchText in replaceTexts:
         replaceText = replaceTexts[searchText]

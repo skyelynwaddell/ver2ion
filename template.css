@@ -1,269 +1,239 @@
-
-.navbar
-{
-    position: relative;
-    border-radius: 0px;
-    color: rgb(137, 137, 137) !important;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+.navbar {
+  position: relative;
+  border-radius: 0px;
+  color: rgb(137, 137, 137) !important;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-.logo
-{
-    position: relative;
-    width:200px;
-    left:50%;
-    align-items: center;
-    margin-left: -103px !important;
-    justify-content: center;
+.logo {
+  position: relative;
+  width: 200px;
+  left: 50%;
+  align-items: center;
+  margin-left: -103px !important;
+  justify-content: center;
 }
 
-.container
-{
-    justify-content: space-between;
-    padding-top: 10px;
-    align-content: center;
-    float: none;
-    margin: 10px;
-    flex: none;
-    width: 600px;
-    display: fixed;
-    padding:18px;
-    padding-bottom:25px;
-    border-radius: 15px;
-    background-color: hsla(0, 0%, 17%, 0.807) !important;
-    transition: transform .2s; /* Animation */
+.container {
+  justify-content: space-between;
+  padding-top: 10px;
+  align-content: center;
+  float: none;
+  margin: 10px;
+  flex: none;
+  width: 600px;
+  display: fixed;
+  padding: 18px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  background-color: hsla(0, 0%, 17%, 0.807) !important;
+  transition: transform 0.2s; /* Animation */
 }
 
-.container:hover
-{
-    cursor: pointer !important;
-    transform: scale(1.03);
+.container:hover {
+  cursor: pointer !important;
+  transform: scale(1.03);
 }
 
-.first
-{
-    margin-top:30px;
+.first {
+  margin-top: 30px;
 }
 
-.first:hover
-{
-    transform: scale(1);
-    cursor: pointer;
+.first:hover {
+  transform: scale(1);
+  cursor: pointer;
 }
 
-.coverart
-{
-    opacity: 1;
-    padding: 20px;
-    border-radius: 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: transform .2s; /* Animation */
+.coverart {
+  opacity: 1;
+  padding: 20px;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.2s; /* Animation */
 }
 
-.coverart:hover
-{
-    transform: scale(1.1);
-    cursor: pointer !important;;
+.coverart:hover {
+  transform: scale(1.1);
+  cursor: pointer !important;
 }
 
-
-.songtitle, .artistname, .releasedate
-{
-    opacity: 1;
-    border-radius: 15px;
-    font-family: 'Poppins', sans-serif;
-    align-items: center;
-    text-align: center;
-    align-content: center;
-    color:white;
+.songtitle,
+.artistname,
+.releasedate {
+  opacity: 1;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  color: white;
 }
 
-.presave
-{
-    position: relative;
-    height:80px;
-    margin:auto;
-    opacity: 1;
-    border-radius: 15px;
-    font-family: 'Poppins', sans-serif;
-    align-items: center !important;
-    text-align: center !important;
-    align-content: center !important;
-    background-color:rgb(255, 48, 186) !important;
-    border-color:rgb(255, 66, 192) !important;
-    transition: transform .2s !important; /* Animation */
+.presave {
+  position: relative;
+  height: 80px;
+  margin: auto;
+  opacity: 1;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  align-items: center !important;
+  text-align: center !important;
+  align-content: center !important;
+  background-color: rgb(255, 48, 186) !important;
+  border-color: rgb(255, 66, 192) !important;
+  transition: transform 0.2s !important; /* Animation */
 }
 
-.btn:hover
-{
-    transform: scale(1.2);
-    cursor: pointer;
+.btn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
-.songtitle
-{
-    opacity: 1;
-    padding-bottom: 5px;
+.songtitle {
+  opacity: 1;
+  padding-bottom: 5px;
 }
 
-.navbar
-{
-    margin-bottom:10px;
+.navbar {
+  margin-bottom: 10px;
 }
 
-.artistname
-{
-    font-family: 'Poppins', thin;
+.artistname {
+  font-family: "Poppins", thin;
 }
 
-.releasedate
-{
-    font-family: 'Poppins', thin;
+.releasedate {
+  font-family: "Poppins", thin;
 }
 
-.linkbox
-{
-    max-width:10px;
-    height:70px;
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 100px 100px 100px;
-    text-decoration: none;
+.linkbox {
+  max-width: 10px;
+  height: 70px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 100px 100px 100px;
+  text-decoration: none;
 }
 
-.linkname
-{
-    color:white;
-    white-space: nowrap;
-    font-size: x-large;
+.linkname {
+  color: white;
+  white-space: nowrap;
+  font-size: x-large;
 }
 
-.footer
-{
-    margin: auto;
-    color:white;
-    white-space: nowrap;
-    font-size: large;
-    text-align: center;
+.footer {
+  margin: auto;
+  color: white;
+  white-space: nowrap;
+  font-size: large;
+  text-align: center;
 }
 
-a:link
-{
-    text-decoration: none;
+a:link {
+  text-decoration: none;
 }
 
-.bi-box-arrow-up-right
-{
-    display: inline-block;
-    position: fixed;
-    align-items: right;
-    margin-left:25rem;
+.bi-box-arrow-up-right {
+  display: inline-block;
+  position: fixed;
+  align-items: right;
+  margin-left: 25rem;
 }
 
-.bi-spotify
-{
-    border-radius: 10px;
-    background-color: rgb(13, 13, 13);
-    padding:10px;
-    color:rgb(119, 234, 123);
+.bi-spotify {
+  border-radius: 10px;
+  background-color: rgb(13, 13, 13);
+  padding: 10px;
+  color: rgb(119, 234, 123);
 }
 
-.bi-cloud-fill
-{
-    border-radius: 10px;
-    background-color: rgb(13, 13, 13);
-    padding:10px;
-    color:rgb(255, 157, 0);
+.bi-cloud-fill {
+  border-radius: 10px;
+  background-color: rgb(13, 13, 13);
+  padding: 10px;
+  color: rgb(255, 157, 0);
 }
 
-.bi-youtube
-{
-    border-radius: 10px;
-    background-color: rgb(13, 13, 13);
-    padding:10px;
-    color:rgb(238, 37, 37);
+.bi-youtube {
+  border-radius: 10px;
+  background-color: rgb(13, 13, 13);
+  padding: 10px;
+  color: rgb(238, 37, 37);
 }
 
-.bi-youtube2
-{
-    border-radius: 10px;
-    background-color: rgb(13, 13, 13);
-    padding:10px;
-    color:rgb(238, 37, 37);
+.bi-youtube2 {
+  border-radius: 10px;
+  background-color: rgb(13, 13, 13);
+  padding: 10px;
+  color: rgb(238, 37, 37);
 }
 
-.bi-apple
-{
-    border-radius: 10px;
-    background-color: rgb(13, 13, 13);
-    padding:10px;
-    color:rgb(232, 232, 232);
+.bi-apple {
+  border-radius: 10px;
+  background-color: rgb(13, 13, 13);
+  padding: 10px;
+  color: rgb(232, 232, 232);
 }
 
-.bi-itunes
-{
-    border-radius: 10px;
-    background-color: rgb(13, 13, 13);
-    padding:10px;
-    color:rgb(160, 160, 160);
+.bi-itunes {
+  border-radius: 10px;
+  background-color: rgb(13, 13, 13);
+  padding: 10px;
+  color: rgb(160, 160, 160);
 }
 
-.bi-deezer
-{
-    border-radius: 10px;
-    background-color: rgb(13, 13, 13);
-    padding:10px;
-    color:rgb(186, 29, 248);
+.bi-deezer {
+  border-radius: 10px;
+  background-color: rgb(13, 13, 13);
+  padding: 10px;
+  color: rgb(186, 29, 248);
 }
 
-    body, html
-    {
-        padding-left: 1px;
-        height: 100%;
-        width:20rem;
-        justify-content: center !important;
-        align-items: center !important;
-        float: none !important;
-        margin: auto !important;
+body,
+html {
+  padding-left: 1px;
+  height: 100%;
+  width: 20rem;
+  justify-content: center !important;
+  align-items: center !important;
+  float: none !important;
+  margin: auto !important;
 
-         /* Margin/padding copied from Bootstrap */
-  
-    /* Set width to your desired site width */
-    }
+  /* Margin/padding copied from Bootstrap */
 
-    .background
-    {
-        
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        margin: 0 auto !important; 
-        float: none !important; 
-        background-image: url(#COVER_ART);
-        filter: blur(1);
-        background-position: top;
-        background-repeat: repeat;
-        background-size: cover;
-        height: 100%;
-        width: 100%;
-        filter: blur(10px);  
-    }
+  /* Set width to your desired site width */
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: 0 auto !important;
+  float: none !important;
+  background-image: url(#COVER_ART);
+  filter: blur(1);
+  background-position: top;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur(10px);
+}
 
 * {
-    box-sizing: border-box;
-    }
-    .logo2
-    {
-        position: relative;
-        width:200px;
-        left:50%;
-        align-items: center;
-        margin-left: -103px !important;
-        justify-content: center;
-    }
+  box-sizing: border-box;
+}
+.logo2 {
+  position: relative;
+  width: 200px;
+  left: 50%;
+  align-items: center;
+  margin-left: -103px !important;
+  justify-content: center;
+}
