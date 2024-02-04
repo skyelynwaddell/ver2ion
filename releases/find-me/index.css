@@ -258,3 +258,12 @@ a:link
 * {
     box-sizing: border-box;
     }
+    .logo2
+    {
+        position: relative;
+        width:200px;
+        left:50%;
+        align-items: center;
+        margin-left: -103px !important;
+        justify-content: center;
+    }
