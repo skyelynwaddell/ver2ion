@@ -1,138 +1,394 @@
-body, html{
-    background-color: black;
-}
-h1{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 60px;
-position: absolute;
-display:flex;
-color:white;
-}
-.socialcolumn{
-    justify-items: center;
-    justify-content: center;
-    text-align: center;
-    position: absolute;
-    display:flex;
-    float:left;
-    margin:430px;
-    column-gap: 10px;
-}
-.fa {
-    width:80px;
-    height:80px;
-    padding: 21px;
-    text-decoration: none;
-    border-radius: 50%;
-    transition: all .2s ease-in-out; 
-  }
-.fa:hover {
-    transform: scale(1.1);
-  }
 
-.logo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 60px;
-    top:30px;
-    width: 400px;
-    position: absolute;
-    display:flex;
-    color:white;
-    transition: all .3s ease-in-out; 
-    }
-
-.logo:hover{
-    transform: scale(1.02);
-}
-.banner{
-    overflow-x: hidden;
-    height:flex;
+.navbar
+{
+    position: relative;
+    border-radius: 0px;
+    color: rgb(137, 137, 137) !important;
     display: flex;
     width: 100%;
-    left:0;
-    top:0;
-    position: absolute;
-    justify-content: left;
-    justify-items: left;
-    text-align: left;
-    background-size: cover;
-    background-color: white;
-}
-.feature{
-    overflow-x: hidden;
-    background-size: cover;
-    position:absolute;
-    left:0;
-    height:auto;
-    width:100%;
+    align-items: center;
     justify-content: center;
-    justify-items: center;
-    text-align: center;
-    display: flex;
-}
-.buy1get1free{
-  color:white !important;
-  position: relative;
-  top:540px;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-  display: flex;
-  height:auto;
-}
-.buy1text{
-  font-family: 'Lexend Peta', sans-serif;
 }
 
-.btn{
-  background-color: #ea22b1 !important;
-  border-color: #ea22b1 !important;
-  transition: .3s ease-in-out !important; 
+.logo
+{
+    position: relative;
+    width:200px;
+    left:50%;
+    align-items: center;
+    margin-left: -103px !important;
+    justify-content: center;
+}
+
+.logo2
+{
+    position: relative;
+    width:200px;
+    left:50%;
+    align-items: center;
+    margin-left: -103px !important;
+    justify-content: center;
+}
+.containertop
+{
+    align-items: center;
+    margin:auto;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+
+.artistname
+{
+    transition: .0s;
+    width:150px;
+    border-radius:100px;
+    transition: .2s;
+}
+
+.btn:link
+{
+    text-decoration: none;
+}
+.profilepic
+{
+    transition: .0s;
+    width:150px;
+    border-radius:100px;
+    transition: .2s;
+    
+}
+.profilepic:hover
+{
+    transform: scale(1.1)
+}
+
+.profilename
+{
+    margin-top:20px;
+}
+.profiletag
+{
+    font-size: large;
+}
+
+.container
+{
+    justify-content: space-between;
+    padding-top: 10px;
+    align-content: center;
+    float: none;
+    margin: 10px;
+    flex: none;
+    width: 600px;
+    display: fixed;
+    padding:18px;
+    padding-bottom:25px;
+    border-radius: 15px;
+    background-color: hsla(0, 0%, 17%, 0.807) !important;
+    transition: transform .2s; /* Animation */
+}
+
+.container:hover
+{
+    cursor: pointer !important;
+    transform: scale(1.03);
+}
+
+.first
+{
+    margin-top:30px;
+}
+
+.first:hover
+{
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.coverart
+{
+    opacity: 1;
+    padding: 20px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s; /* Animation */
+}
+
+.coverart:hover
+{
+    transform: scale(1.1);
+    cursor: pointer !important;;
+}
+
+
+.songtitle, .artistname, .releasedate
+{
+    opacity: 1;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    color:white;
+}
+
+.presave
+{
+    position: relative;
+    height:80px;
+    margin: auto;
+    opacity: 1;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center !important;
+    text-align: center !important;
+    align-content: center !important;
+    background-color:rgb(255, 48, 186) !important;
+    border-color:rgb(255, 66, 192) !important;
+    transition: transform .2s !important; /* Animation */
 }
 
 .btn:hover
 {
-  transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
 }
-.store{
-    overflow-x: hidden;
-    position:absolute;
-    top:103px;
-    left:0;
-    right:cover;
-    height:100%;
-    width: 100%;
-    top:600px;
-    justify-content: center;
-    justify-items: center;
+
+.songtitle
+{
+    opacity: 1;
+    padding-bottom: 5px;
+}
+
+.navbar
+{
+    margin-bottom:10px;
+}
+
+.artistname
+{
+    font-family: 'Poppins', thin;
+}
+
+.releasedate
+{
+    font-family: 'Poppins', thin;
+}
+
+.linkbox
+{
+    max-width:10px;
+    height:70px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 100px 100px 100px;
+    text-decoration: none;
+}
+
+.linkname
+{
+    color:white;
+    white-space: nowrap;
+    font-size: x-large;
+}
+
+.linkname2
+{
+    white-space: nowrap;
+    display: fixed;
+    padding-left:250px;
+    margin-top: -140px;
+    text-align: right;
+    vertical-align: right;
+    color:white;
+    font-size: large;
+}
+
+.linkname3
+{
+    white-space: nowrap;
+    display: fixed;
+    padding-left:180px;
+    margin-top: -140px;
+    text-align: right;
+    vertical-align: right;
+    color:white;
+    font-size: large;
+}
+
+.footer
+{
+    margin: auto;
+    color:white;
+    white-space: nowrap;
+    font-size: large;
     text-align: center;
-    display: flex;
 }
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-youtube {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  .fa-instagram {
-    background: #ea22b1;
-    color: white;
-  }
-  .fa-soundcloud {
-    background: #ff5500;
-    color: white;
-  }
-  .fa-rss {
-    background: #ff6600;
-    color: white;
-  }
-  .fa-spotify {
-    background: #2abe51;
-    color: white;
+
+.albumsmixtapes
+{
+    color: white; 
+    white-space: nowrap;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+.bi-box-arrow-up-right
+{
+    display: inline-block;
+    position: fixed;
+    align-items: right;
+    margin-left:25rem;
+}
+
+.bi-spotify
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(119, 234, 123);
+}
+
+.bi-cloud-fill
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(255, 157, 0);
+}
+
+.bi-youtube
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(238, 37, 37);
+}
+
+.bi-youtube2
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(238, 37, 37);
+}
+
+.bi-apple
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(232, 232, 232);
+}
+
+.bi-itunes
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(160, 160, 160);
+}
+
+.bi-deezer
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(186, 29, 248);
+}
+.bi-twitter
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(1, 185, 252);
+}
+.bi-instagram
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(255, 40, 223);
+}
+.bi-threads
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(255, 255, 255);
+}
+.bi-tiktok
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(255, 255, 255);
+}
+.bi-beatstore
+{
+    color:rgb(248, 182, 29);
+}
+.bi-discord
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(119, 174, 255);
+}
+.bi-paypal
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(0, 89, 167);
+}
+
+    body, html
+    {
+        padding-left: 1px;
+        height: 100%;
+        width:20rem;
+        justify-content: center !important;
+        align-items: center !important;
+        float: none !important;
+        margin: auto !important;
+
+         /* Margin/padding copied from Bootstrap */
+  
+    /* Set width to your desired site width */
+    }
+
+    .background
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        margin: 0 auto !important; 
+        float: none !important; 
+        background-image: url(https://s3.amazonaws.com/gather.fandalism.com/3000x3000%2D1197190%2D%2DB9A42526%2DF15E%2D4523%2DA85B8EBFE10C9E75%2D%2D0%2D%2D2100043%2D%2Dlemmefindout.jpg);
+        filter: blur(1);
+        background-position: top;
+        background-repeat: repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        filter: blur(10px);  
+    }
+
+* {
+    box-sizing: border-box;
+    }
+
+  .minicover
+  {
+    width: 80px;
+    border-radius: 3px;
+    margin-top:-3px;
   }
