@@ -97,12 +97,12 @@ color:white;
 .store{
     overflow-x: hidden;
     position:absolute;
-    top:103px;
+    /* top:103px; */
     left:0;
     right:cover;
     height:100%;
     width: 100%;
-    top:600px;
+    /* top:600px; */
     justify-content: center;
     justify-items: center;
     text-align: center;
