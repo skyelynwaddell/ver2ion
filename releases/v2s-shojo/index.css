@@ -221,6 +221,17 @@ a:link
     color:rgb(186, 29, 248);
 }
 
+.bi-arrow-down-square-fill
+{
+    border-radius: 10px;
+    background-color: rgb(13, 13, 13);
+    padding:10px;
+    color:rgb(81, 229, 61);
+}
+
+
+
+
     body, html
     {
         padding-left: 1px;
